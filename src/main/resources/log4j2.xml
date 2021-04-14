@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration packages="com.epam.ta.reportportal.log4j.appender">
+    <properties>
+        <property name="pattern">[%d{HH:mm:ss}] %-5p (%F:%L) - %m%n</property>
+        <property name="patternRP">[%t] %-5level - %msg%n</property>
+    </properties>
+    <appenders>
+        <ReportPortalLog4j2Appender name="ReportPortalAppenderLog4j2Appender">
+            <PatternLayout pattern="${patternRP}"/>
+        </ReportPortalLog4j2Appender>
+        <Console name="Console">
+            <PatternLayout pattern="${pattern}"/>
+        </Console>
+        <File name="File" fileName="target/logs/test-automation-framework.log" append="false">
+            <PatternLayout pattern="${pattern}"/>
+        </File>
+    </appenders>
+    <loggers>
+        <root level="all">
+            <appender-ref ref="ReportPortalAppenderLog4j2Appender" level="trace"/>
+            <appenderRef ref="Console" level="info"/>
+            <appenderRef ref="File" level="trace"/>
+        </root>
+    </loggers>
+</configuration>

@@ -1,0 +1,1636 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "ProfessionalCertsV1Resource": {
+              "type": "object",
+              "properties": {
+                "getAll": {
+                  "type": "object",
+                  "properties": {
+                    "elements": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                },
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                },
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "tagline": {
+                              "type": "string"
+                            },
+                            "partnerSquareLogo": {
+                              "type": "string"
+                            },
+                            "thumbnail": {
+                              "type": "string"
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "tagline",
+                            "partnerSquareLogo",
+                            "thumbnail",
+                            "partnerIds",
+                            "__typename"
+                          ]
+                        }
+                      ]
+                    },
+                    "__typename": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "elements",
+                    "__typename"
+                  ]
+                },
+                "__typename": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "getAll",
+                "__typename"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "ProfessionalCertsV1Resource"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "data"
+      ]
+    }
+  ]
+}

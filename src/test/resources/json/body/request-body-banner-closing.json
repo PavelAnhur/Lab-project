@@ -1,0 +1,23 @@
+{
+  "clientType": "web",
+  "app": "phoenix",
+  "clientVersion": "75b637bab0ce8f1f4689598632e3277b59430477",
+  "events": [
+    {
+      "key": "front_page.front_page_story.click.c4c_banner_close",
+      "value": {
+        "namespace": {
+          "app": "front_page",
+          "page": "front_page_story",
+          "action": "click",
+          "component": "c4c_banner_close"
+        },
+        "schema_type": "FRONTEND"
+      },
+      "url": "https://www.coursera.org/",
+      "guid": "717d0d6e-168a-4402-e389-6a01488f2064",
+      "visitId": "974129c6-d4b3-4aa4-924a-2aac8f0b715d",
+      "clientTimestamp": 1614592682684
+    }
+  ]
+}

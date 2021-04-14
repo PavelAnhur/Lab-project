@@ -1,0 +1,26 @@
+<coursera>
+    <version>3.2.8</version>
+    <messages>
+        <string>User account information for so7360853@gmail.com</string>
+    </messages>
+    <user>
+        <downloads-remaining>1</downloads-remaining>
+        <list>
+            <page>10</page>
+            <limit>10</limit>
+            <num-pages>1000</num-pages>
+            <result>
+                <id>01</id>
+                <name>Adult Content filtering</name>
+                <value>true</value>
+                <editable>1</editable>
+            </result>
+            <result>
+                <id>02</id>
+                <name>User Type</name>
+                <value>1</value>
+                <editable>1</editable>
+            </result>
+        </list>
+    </user>
+</coursera>

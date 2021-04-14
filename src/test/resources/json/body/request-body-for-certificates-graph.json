@@ -1,0 +1,7 @@
+[
+  {
+    "operationName": "ProfessionalCertificatesData",
+    "variables": {},
+    "query": "query ProfessionalCertificatesData {ProfessionalCertsV1Resource {getAll {elements {id name slug tagline partnerSquareLogo thumbnail partnerIds __typename}__typename}__typename}}"
+  }
+]

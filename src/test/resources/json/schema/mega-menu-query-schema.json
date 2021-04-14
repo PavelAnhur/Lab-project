@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "array",
+  "additionalItems": true,
+  "items": {
+    "anyOf": [
+      {
+        "type": "object",
+        "required": [
+          "data"
+        ],
+        "properties": {
+          "data": {
+            "type": "object",
+            "required": [
+              "DomainsV1Resource"
+            ],
+            "properties": {
+              "DomainsV1Resource": {
+                "type": "object",
+                "required": [
+                  "domains"
+                ],
+                "properties": {
+                  "domains": {
+                    "type": "object",
+                    "required": [
+                      "elements"
+                    ],
+                    "properties": {
+                      "elements": {
+                        "type": "array",
+                        "additionalItems": true,
+                        "items": {
+                          "anyOf": [
+                            {
+                              "type": "object",
+                              "required": [
+                                "id",
+                                "name",
+                                "description",
+                                "subdomains"
+                              ],
+                              "properties": {
+                                "id": {
+                                  "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string"
+                                },
+                                "subdomains": {
+                                  "type": "object",
+                                  "required": [
+                                    "elements",
+                                    "paging"
+                                  ],
+                                  "properties": {
+                                    "elements": {
+                                      "type": "array",
+                                      "additionalItems": true,
+                                      "items": {
+                                        "anyOf": [
+                                          {
+                                            "type": "object",
+                                            "required": [
+                                              "id",
+                                              "name",
+                                              "domainId",
+                                              "description"
+                                            ],
+                                            "properties": {
+                                              "id": {
+                                                "type": "string"
+                                              },
+                                              "name": {
+                                                "type": "string"
+                                              },
+                                              "domainId": {
+                                                "type": "string"
+                                              },
+                                              "description": {
+                                                "type": "string"
+                                              }
+                                            },
+                                            "additionalProperties": false
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "paging": {
+                                      "type": "object",
+                                      "required": [
+                                        "total"
+                                      ],
+                                      "properties": {
+                                        "total": {
+                                          "type": "integer"
+                                        }
+                                      },
+                                      "additionalProperties": false
+                                    }
+                                  },
+                                  "additionalProperties": false
+                                }
+                              },
+                              "additionalProperties": false
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    ]
+  }
+}

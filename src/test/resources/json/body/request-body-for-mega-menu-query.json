@@ -1,0 +1,9 @@
+[
+  {
+    "operationName":"MegaMenuQuery",
+    "variables":{
+      "ids":["computer-science"]
+    },
+    "query":"query MegaMenuQuery($ids: [String!]!) {DomainsV1Resource {domains: multiGet(ids: $ids) {elements {id name description subdomains {elements {id name domainId description} paging {total}}}}}}"
+  }
+]

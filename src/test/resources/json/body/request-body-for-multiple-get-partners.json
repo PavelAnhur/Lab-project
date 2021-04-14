@@ -1,0 +1,8 @@
+[
+  {
+    "variables":{
+      "ids":["1", "2", "3", "4", "6", "7", "8", "9", "10", "11"]
+    },
+    "query":"query PartnersQuery($ids: [String!]!) {PartnersV1Resource {multiGet(ids: $ids) {elements {id name}}}}"
+  }
+]

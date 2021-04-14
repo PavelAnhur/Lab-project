@@ -1,0 +1,7 @@
+[
+  {
+    "operationName": "DomainGetAllQuery",
+    "variables": {},
+    "query": "query DomainGetAllQuery {DomainsV1Resource {domains: getAll {elements {id slug name description backgroundImageUrl subdomains {elements {id slug name domainId description __typename}__typename}__typename}__typename}__typename}}"
+  }
+]

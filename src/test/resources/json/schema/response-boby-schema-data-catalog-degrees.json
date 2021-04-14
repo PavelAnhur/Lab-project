@@ -1,0 +1,3051 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "CatalogDegreesV1Resource": {
+              "type": "object",
+              "properties": {
+                "getAll": {
+                  "type": "object",
+                  "properties": {
+                    "elements": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "string"
+                                },
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "languageCode": {
+                              "type": "string"
+                            },
+                            "bannerImage": {
+                              "type": "string"
+                            },
+                            "marketingName": {
+                              "type": "string"
+                            },
+                            "catalogAvailabilityStatus": {
+                              "type": "string"
+                            },
+                            "partners": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "shortName": {
+                                          "type": "string"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "productBrandingLogo": {
+                                          "type": "string"
+                                        },
+                                        "squareLogo": {
+                                          "type": "string"
+                                        },
+                                        "landingPageBanner": {
+                                          "type": "string"
+                                        },
+                                        "primaryColor": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "shortName",
+                                        "name",
+                                        "productBrandingLogo",
+                                        "squareLogo",
+                                        "landingPageBanner",
+                                        "primaryColor",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "partnerIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "integer"
+                                }
+                              ]
+                            },
+                            "domainIds": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "string"
+                                }
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "slug",
+                            "languageCode",
+                            "bannerImage",
+                            "marketingName",
+                            "catalogAvailabilityStatus",
+                            "partners",
+                            "partnerIds",
+                            "domainIds",
+                            "__typename"
+                          ]
+                        }
+                      ]
+                    },
+                    "__typename": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "elements",
+                    "__typename"
+                  ]
+                },
+                "__typename": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "getAll",
+                "__typename"
+              ]
+            }
+          },
+          "required": [
+            "CatalogDegreesV1Resource"
+          ]
+        }
+      },
+      "required": [
+        "data"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "sectionId": "section1",
+  "responses": {
+    "firstName": {
+      "org.coursera.survey.question.ShortAnswerResponse": {
+        "text": "dddd"
+      }
+    },
+    "lastName": {
+      "org.coursera.survey.question.ShortAnswerResponse": {
+        "text": "aaaa"
+      }
+    },
+    "emailAddress": {
+      "org.coursera.survey.question.ShortAnswerResponse": {
+        "text": "elenazayast1993@gmail.com"
+      }
+    },
+    "phoneNumber": {
+      "org.coursera.survey.question.ShortAnswerResponse": {
+        "text": "wwww"
+      }
+    }
+  }
+}

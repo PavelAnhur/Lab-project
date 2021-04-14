@@ -1,0 +1,7 @@
+{
+  "disableDataAggregation": [
+    "NOTE_TEXT",
+    "VIDEO_NOTE_PROPERTIES"
+  ],
+  "disableDisplay": []
+}

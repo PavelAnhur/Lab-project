@@ -1,0 +1,9 @@
+[
+  {
+    "operationName": "CatalogDegreeData",
+    "variables": {
+      "liveOnly": true
+    },
+    "query": "query CatalogDegreeData($liveOnly: Boolean!) {CatalogDegreesV1Resource {getAll(liveOnly: $liveOnly) {elements {id name slug languageCode bannerImage marketingName catalogAvailabilityStatus partners {elements {id shortName name productBrandingLogo squareLogo landingPageBanner primaryColor __typename} __typename}partnerIds domainIds __typename}__typename}__typename}}"
+  }
+]

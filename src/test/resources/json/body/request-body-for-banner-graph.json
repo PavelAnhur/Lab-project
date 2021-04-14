@@ -1,0 +1,10 @@
+[
+  {
+    "operationName": "BannerAdCampaignsV1Query",
+    "variables": {
+      "placement": "MEGAMENU",
+      "bannerCount": 2
+    },
+    "query": "query BannerAdCampaignsV1Query($placement: String!, $bannerCount: Int!) {BannerAdCampaignsV1Resource {byPlacement(placement: $placement, bannerCount: $bannerCount) {elements {id callToActionUrl placement promotedEntityId creative {imageUrl partnerName titleText bodyText callToActionText backgroundColor __typename}__typename}__typename}__typename}}"
+  }
+]

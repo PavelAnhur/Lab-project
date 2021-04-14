@@ -1,0 +1,24 @@
+{
+  "clientType": "web",
+  "app": "phoenix",
+  "clientVersion": "60c52322ad4dee373a458a99ce740969796a2c90",
+  "events": [
+    {
+      "key": "epic.experiment.show",
+      "value": {
+        "namespace": "Enterprise",
+        "idForAllocation": "2696558095-1612936397381",
+        "experimentId": "ezCygGDdEeuOBZtBEeSBFQ",
+        "variantId": "A_f98NnkSN-8JJscG5jS7g",
+        "parameterName": "enableGlobalNavEnterpriseDropdown",
+        "version": 1,
+        "value": true,
+        "status": "RUNNING"
+      },
+      "url": "https://www.coursera.org/campus-coursematch",
+      "guid": "eb46171b-ea1f-4641-e676-7c6f73a0801f",
+      "visitId": "34920d65-b23c-422a-bf48-66b6ca7ae0e9",
+      "clientTimestamp": 1614341936815
+    }
+  ]
+}

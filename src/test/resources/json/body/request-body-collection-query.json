@@ -1,0 +1,14 @@
+[
+  {
+    "operationName": "CollectionQuery",
+    "variables": {
+      "skip": false,
+      "start": "0",
+      "contextId": "data-analysis",
+      "contextType": "SUBCATEGORY",
+      "numEntriesPerCollection": 1,
+      "limit": 1
+    },
+    "query":"query CollectionQuery($contextType: String!, $contextId: String!, $skip: Boolean = false, $numEntriesPerCollection: Int, $limit: Int, $start: String = \"0\") { BrowseCollectionsV1Resource @skip(if: $skip) { byCollections(contextType: $contextType, contextId: $contextId, numEntriesPerCollection: $numEntriesPerCollection, limit: $limit, start: $start) { elements { label id linkedCollectionPageMetadata { url label} debug entries { id courseId onDemandSpecializationId resourceName score isPartOfCourseraPlus isFreeCertificate} courses { elements { ...LightweightCourseFragment}} s12ns { elements { ...LightweightS12nFragment}}} paging { total}}}} fragment LightweightCourseFragment on CoursesV1 { id slug name photoUrl s12nIds premiumExperienceVariant level workload primaryLanguages partners { elements { id name squareLogo classLogo logo}} courseTypeMetadata { courseTypeMetadata { ...RhymeProjectFragment}}} fragment RhymeProjectFragment on CourseTypeMetadataV1_rhymeProjectMember { ... on CourseTypeMetadataV1_rhymeProjectMember { rhymeProject { typeNameIndex}}}fragment LightweightS12nFragment on OnDemandSpecializationsV1 { name id slug logo courseIds partners { elements { id name squareLogo classLogo logo}} metadata { headerImage level} productVariant}"
+  }
+]

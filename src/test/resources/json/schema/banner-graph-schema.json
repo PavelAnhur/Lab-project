@@ -1,0 +1,185 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "BannerAdCampaignsV1Resource": {
+              "type": "object",
+              "properties": {
+                "byPlacement": {
+                  "type": "object",
+                  "properties": {
+                    "elements": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "callToActionUrl": {
+                              "type": "string"
+                            },
+                            "placement": {
+                              "type": "string"
+                            },
+                            "promotedEntityId": {
+                              "type": "string"
+                            },
+                            "creative": {
+                              "type": "object",
+                              "properties": {
+                                "imageUrl": {
+                                  "type": "string"
+                                },
+                                "partnerName": {
+                                  "type": ["string", "null"]
+                                },
+                                "titleText": {
+                                  "type": "string"
+                                },
+                                "bodyText": {
+                                  "type": "string"
+                                },
+                                "callToActionText": {
+                                  "type": "string"
+                                },
+                                "backgroundColor": {
+                                  "type": "string"
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "imageUrl",
+                                "partnerName",
+                                "titleText",
+                                "bodyText",
+                                "callToActionText",
+                                "backgroundColor",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "callToActionUrl",
+                            "placement",
+                            "promotedEntityId",
+                            "creative",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "callToActionUrl": {
+                              "type": "string"
+                            },
+                            "placement": {
+                              "type": "string"
+                            },
+                            "promotedEntityId": {
+                              "type": "string"
+                            },
+                            "creative": {
+                              "type": "object",
+                              "properties": {
+                                "imageUrl": {
+                                  "type": "string"
+                                },
+                                "partnerName": {
+                                  "type": ["string", "null"]
+                                },
+                                "titleText": {
+                                  "type": "string"
+                                },
+                                "bodyText": {
+                                  "type": "string"
+                                },
+                                "callToActionText": {
+                                  "type": "string"
+                                },
+                                "backgroundColor": {
+                                  "type": "string"
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "imageUrl",
+                                "partnerName",
+                                "titleText",
+                                "bodyText",
+                                "callToActionText",
+                                "backgroundColor",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "callToActionUrl",
+                            "placement",
+                            "promotedEntityId",
+                            "creative",
+                            "__typename"
+                          ]
+                        }
+                      ]
+                    },
+                    "__typename": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "elements",
+                    "__typename"
+                  ]
+                },
+                "__typename": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "byPlacement",
+                "__typename"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "BannerAdCampaignsV1Resource"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "data"
+      ]
+    }
+  ]
+}

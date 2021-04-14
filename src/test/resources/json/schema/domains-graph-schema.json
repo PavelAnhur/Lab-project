@@ -1,0 +1,2056 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "DomainsV1Resource": {
+              "type": "object",
+              "properties": {
+                "domains": {
+                  "type": "object",
+                  "properties": {
+                    "elements": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "null"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "backgroundImageUrl": {
+                              "type": "string"
+                            },
+                            "subdomains": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "slug",
+                            "name",
+                            "description",
+                            "backgroundImageUrl",
+                            "subdomains",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "null"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "backgroundImageUrl": {
+                              "type": "string"
+                            },
+                            "subdomains": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "slug",
+                            "name",
+                            "description",
+                            "backgroundImageUrl",
+                            "subdomains",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "null"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "backgroundImageUrl": {
+                              "type": "string"
+                            },
+                            "subdomains": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "slug",
+                            "name",
+                            "description",
+                            "backgroundImageUrl",
+                            "subdomains",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "null"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "backgroundImageUrl": {
+                              "type": "string"
+                            },
+                            "subdomains": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "slug",
+                            "name",
+                            "description",
+                            "backgroundImageUrl",
+                            "subdomains",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "null"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "backgroundImageUrl": {
+                              "type": "string"
+                            },
+                            "subdomains": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "slug",
+                            "name",
+                            "description",
+                            "backgroundImageUrl",
+                            "subdomains",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "backgroundImageUrl": {
+                              "type": "string"
+                            },
+                            "subdomains": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "slug",
+                            "name",
+                            "description",
+                            "backgroundImageUrl",
+                            "subdomains",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "null"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "backgroundImageUrl": {
+                              "type": "string"
+                            },
+                            "subdomains": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "slug",
+                            "name",
+                            "description",
+                            "backgroundImageUrl",
+                            "subdomains",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "null"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "backgroundImageUrl": {
+                              "type": "string"
+                            },
+                            "subdomains": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "slug",
+                            "name",
+                            "description",
+                            "backgroundImageUrl",
+                            "subdomains",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "null"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "backgroundImageUrl": {
+                              "type": "string"
+                            },
+                            "subdomains": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "slug",
+                            "name",
+                            "description",
+                            "backgroundImageUrl",
+                            "subdomains",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "null"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "backgroundImageUrl": {
+                              "type": "string"
+                            },
+                            "subdomains": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "slug",
+                            "name",
+                            "description",
+                            "backgroundImageUrl",
+                            "subdomains",
+                            "__typename"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "null"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "backgroundImageUrl": {
+                              "type": "string"
+                            },
+                            "subdomains": {
+                              "type": "object",
+                              "properties": {
+                                "elements": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "slug": {
+                                          "type": "null"
+                                        },
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "domainId": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "__typename": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "additionalProperties": false,
+                                      "required": [
+                                        "id",
+                                        "slug",
+                                        "name",
+                                        "domainId",
+                                        "description",
+                                        "__typename"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "__typename": {
+                                  "type": "string"
+                                }
+                              },
+                              "additionalProperties": false,
+                              "required": [
+                                "elements",
+                                "__typename"
+                              ]
+                            },
+                            "__typename": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": [
+                            "id",
+                            "slug",
+                            "name",
+                            "description",
+                            "backgroundImageUrl",
+                            "subdomains",
+                            "__typename"
+                          ]
+                        }
+                      ]
+                    },
+                    "__typename": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "elements",
+                    "__typename"
+                  ]
+                },
+                "__typename": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "domains",
+                "__typename"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "DomainsV1Resource"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "data"
+      ]
+    }
+  ]
+}
