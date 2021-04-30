@@ -61,53 +61,46 @@ public class CourseraEditorProfilePage extends BasePage {
     @FindBy(className = "image-selector-error")
     private WebElement imageErrorMessage;
 
-    public CourseraEditorProfilePage clickOnEditProfileButton() {
+    public void clickOnEditProfileButton() {
         WaitersService.waitUntilPageIsCompletelyLoaded(getDriver());
         WaitersService.waitForElementToBeClickable(getDriver(), editMyProfileButton);
         logger.info("click Edit Profile button");
         editMyProfileButton.click();
         WaitersService.waitUntilPageIsCompletelyLoaded(getDriver());
-        return this;
     }
 
-    public CourseraEditorProfilePage selectEmployedTimeStatus(final String timeStatusFromDropdown) {
+    public void selectEmployedTimeStatus(final String timeStatusFromDropdown) {
         logger.info("select line number {} in employed time status field", timeStatusFromDropdown);
         SelectorService.selectOptionByIndex(employmentStatusDropdown, Integer.parseInt(timeStatusFromDropdown));
-        return this;
     }
 
-    public CourseraEditorProfilePage inputIndustryValue(final String industryValue) {
+    public void inputIndustryValue(final String industryValue) {
         logger.info("input {} in Industry field", industryValue);
         industryField.sendKeys(industryValue + Keys.ARROW_DOWN);
         industryField.click();
-        return this;
     }
 
-    public CourseraEditorProfilePage inputEmployerValue(final String employerValue) {
+    public void inputEmployerValue(final String employerValue) {
         logger.info("input {} in Employer field", employerValue);
         employerField.sendKeys(employerValue + Keys.ENTER);
-        return this;
     }
 
-    public CourseraEditorProfilePage inputOccupationValue(final String occupationValue) {
+    public void inputOccupationValue(final String occupationValue) {
         logger.info("input {} in Occupation field", occupationValue);
         occupationField.sendKeys(occupationValue + Keys.ARROW_DOWN);
         WaitersService.waitForElementToBeClickableAndReturn(getDriver(), occupationField).click();
-        return this;
     }
 
-    public CourseraEditorProfilePage selectExperiencedLevel(final String level) {
+    public void selectExperiencedLevel(final String level) {
         logger.info("select line number {} in Experienced level field", level);
         SelectorService.selectOptionByIndex(experiencedLevel, Integer.parseInt(level));
-        return this;
     }
 
-    public CourseraEditorProfilePage isItYourCurrentEmployerCheckbox(final String answer) {
+    public void isItYourCurrentEmployerCheckbox(final String answer) {
         logger.info("click on current employer checkbox");
         if (answer.equalsIgnoreCase("yes") && !currentEmployerCheckbox.isSelected()) {
             currentEmployerCheckbox.click();
         }
-        return this;
     }
 
     public void clickSaveChangesButton() {
@@ -129,29 +122,25 @@ public class CourseraEditorProfilePage extends BasePage {
                 || (confirmYourSavedMessage.equals(CHANGES_SAVED_RU_MESSAGE));
     }
 
-    public CourseraEditorProfilePage selectHighestDegree(final String degreeLevel) {
+    public void selectHighestDegree(final String degreeLevel) {
         logger.info("select degree level in line number {}", degreeLevel);
         SelectorService.selectOptionByIndex(highestDegree, Integer.parseInt(degreeLevel));
-        return this;
     }
 
-    public CourseraEditorProfilePage inputUniversityValue(final String universityName) {
+    public void inputUniversityValue(final String universityName) {
         logger.info("type {} in University field", universityName);
         universityDropdown.sendKeys(universityName + Keys.ENTER);
-        return this;
     }
 
-    public CourseraEditorProfilePage selectEducationMajor(final String educationMajorLine) {
+    public void selectEducationMajor(final String educationMajorLine) {
         logger.info("select {} line in education major field", educationMajorLine);
         SelectorService.selectOptionByIndex(educationMajorDropdown, Integer.parseInt(educationMajorLine));
-        return this;
     }
 
-    public CourseraEditorProfilePage areYouCurrentlyStudentCheckbox(final String answer) {
+    public void areYouCurrentlyStudentCheckbox(final String answer) {
         logger.info("click on student checkbox");
         if (answer.equalsIgnoreCase("no") && studentCheckbox.isSelected()) {
             studentCheckbox.click();
         }
-        return this;
     }
 }

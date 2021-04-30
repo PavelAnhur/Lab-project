@@ -11,7 +11,7 @@ import org.openqa.selenium.support.FindBy;
 public class CourseraInformationSystemsAuditingPage extends BasePage {
     private final Logger logger = getLogger();
 
-    @FindBy(xpath = "//*[contains(@aria-label,'Introduction to Information Systems (IS) Auditing')]")
+    @FindBy(xpath = "//*[contains(@aria-label,'Introduction to Information Systems')]")
     private WebElement seeAllButton;
 
     @FindBy(xpath = "//*[contains(@data-track-href,'course-overview')]")
